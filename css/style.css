@@ -1,0 +1,186 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 900;
+  font-size: 58px;
+  line-height: 1.5;
+
+}
+
+h3 {
+    font-family: 'Noto Sans';
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+h4 {
+  color: #321F28;
+}
+
+p {
+  color: #F8F1F1;
+}
+
+/* NavBar */
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #F8F1F1;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #E79E4F;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #734046;
+  color: #F8F1F1;
+  padding-bottom: 60px;
+}
+
+.title-section {
+  padding-top: 70px;
+}
+.container-fluid {
+  padding: 40px;
+}
+
+.row {
+  margin: 0;
+  padding: 30px 20px 30px 40px;
+}
+
+.book-btn {
+  background-color: #E79E4F;
+  color: #F8F1F1;
+  border-radius: 25px;
+}
+
+.book-btn:hover {
+  background-color: #321F28;
+  color: #F8F1F1;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 90%;
+  height: 100%;
+  border-radius: 25px;
+  margin-left: 30px;
+}
+
+/* Carousel */
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 500px;
+}
+
+/* Features */
+
+#features {
+  background-color: #F8F1F1;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.card-image {
+  width: 400px;
+  height: 300px;
+  border-radius: 25px;
+}
+
+.content-text {
+  padding-top: 40px;
+  padding-right: 100px;
+
+}
+.text{
+  color: #321F28;
+}
+
+/* Footer */
+
+#footer {
+  padding: 10px;
+  background-color: #734046;
+  text-align: center;
+
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #F8F1F1;
+}
+
+.social-icon:hover {
+  color: #E79E4F;
+}
+
+@media only screen and (max-width: 1000px) {
+  .title-image {
+    display:none;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+  .reverse-row {
+      display: flex !important;
+      flex-flow: wrap;
+      flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+  .title-section {
+      padding-top: 20px;
+      padding-left: 0;
+  }
+  h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  .carousel-item {
+    height: 300px;
+  }
+
+  .carousel-image {
+    width: 100%;
+    height: 300px;
+  }
+.card-image {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+}
+.content-text {
+  padding: 0 0 0 12px;
+  margin-top: 20px;
+}
+.reverse-row {
+    display: flex !important;
+    flex-flow: wrap;
+    flex-direction: column-reverse;
+  }
+}
